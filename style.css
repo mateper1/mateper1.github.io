@@ -1,0 +1,56 @@
+body,
+html {
+  width: 100%;
+  height: 100%;
+  font-family: 'Audiowide', sans-serif;
+}
+body {
+	background: url("header.jpg") no-repeat center center fixed;
+	background-size: cover;
+}
+h1{
+	font-size: 3rem;
+	color:#3d3847;
+	text-transform: uppercase;
+}
+.btn-info {
+	font-weight: 700;
+	border-radius:300px;
+	text-transform: uppercase;
+	background-color: #3d3847;
+	border-color: #3d3847; 
+}
+
+.btn-info:hover {
+  background-color: #9588ac;
+  border-color: #9588ac;
+  border-width: 2px;
+}
+.btn-xl {
+	padding: 0.8rem 2rem;
+}
+.btn-xl:hover{
+	background-color:#3d3847;
+	border-color: #3d3847;
+}
+.btn-xl:focus {
+  background-color: #3d3847;
+  border-color: #3d3847;
+  border-width: 3px;
+  outline:none;
+  box-shadow: none; 
+}
+hr {
+	border-color:#9588ac;
+	border-width:3px;
+	border-radius: 200px;
+	max-width: 100px;
+}
+.d-flex {
+	display: flex;
+	justify-content: center;
+}
+
+.buffer {
+	height: 10rem;
+}
